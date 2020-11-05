@@ -12,93 +12,29 @@
   <nav>
     <ul>
       <li><a href="index.html">team profile</a></li>
-      <li><a href="idealJobs.html">ideal jobs</a></li>
       <li><a href="tools.html">tools</a></li>
-      <li><a href="industryData.html">industry data</a></li>
-      <li><a href="itWork.html">it work</a></li>
-      <li><a href="itTechnologies.html">it technologies</a></li>
-      <li><a class="activeLink" href="projectIdea.html">project idea</a></li>
+      <li><a class="activeLink" href="projectIdea.html">project description</a></li>
+      <li><a href="skillsAndJobs.html">skills and jobs</a></li>
       <li><a href="groupReflection.html">Group reflection</a></li>
       <li><a href="references.html">references</a></li>
     </ul>
   </nav>
-  <h1 class="subPageHeaders" id="colour1">project idea</h1>
+  <h1 class="subPageHeaders" id="colour1">project description</h1>
   <div class="techContainer">
-    <h3 class="techNameSubHeadings">Completed by Lachlan & Michelle</h3>
-    <h3 class="techNameSubHeadings">Overview</h3>
-    <p class="techReportInfo">This project involves building a web-based service that provides education and advice to cat owners regarding items which are toxic to cats. The service
-      will allow users to access information on various foods, plants, household products and medications and have them identified before being provided with
-      evidence-based information on whether they are dangerous to cats and what they should do if their cat has come into contact with a toxin. In the event a user
-      believes their pet has been poisoned, the app will provide them with the capacity to find pet poison hotline numbers and veterinary clinics near them.</p>
-    <h3 class="techNameSubHeadings">Motivations</h3>
-    <p class="techReportInfo">It can be difficult for cat owners to find toxin information for cats. A quick google search reveals there is a variety of information available for
-      dog owners in relation to poisoning, however, the same is not available for cat owners; particularly in relation to mobile apps. Due to cats being fussy eaters they are less
-      likely to be poisoned than dogs (International Cat Care 2020). This could be a contributing factor as to why there are limited resources available for cat owners. Yet, as a
-      result of their curiosity and the fact cats could groom toxic substances off their coats, poisoning in cats is not an uncommon occurrence (International Cat Care 2020).
-      Factors which can lead to cats becoming ill after toxin exposure include their small size, ability to mask exposure, and their inability to break down certain chemicals
-      (International Cat Care 2020). As a result of these factors, cats can be less likely to recover from poisoning than dogs (International Cat Care 2020). According to DeClementi (2014),
-      one of the best ways to prevent pet poisoning is to provide pet owners with basic poison prevention information. Due to the aforementioned reasons, a mobile app would be an essential
-      tool for cat owners to enable them to quickly find toxin information in the event of a time-critical poisoning.</p>
-    <p class="techReportInfo">Similar apps available on the Google Play store include ‘Plants for Cats’ created by Delattre Consulting (2020) and Animal Poison Control Center (APCC) created
-      by American Society for the Prevention of Cruelty to Animals (ASPCA) (2014). APCC is quite detailed in the information it provides to users, covering plants, medications, foods,
-      and household hazards; however, it is an American based app and the emergency poisons hotline numbers are for American residents only. In comparison, ‘Plants for Cats’ provides
-      contact details for emergency poisons hotlines for multiple countries; however, its content is limited to plants only. The aim of this proposed project is to bridge the gap
-      between these apps and offer a service that provides all of these features within the one product.</p>
-    <h3 class="techNameSubHeadings">Description</h3>
-    <p class="techReportInfo">The main feature of the service will be the ability to search for and gain information on items that may be toxic to cats. When opened, the app
-      will display four selections the user will be able to choose from: search and identify toxins, search and identify symptoms, find a veterinary clinic nearby, and
-      poison hotline numbers. When the user selects the search toxins option a list of the categories the user can search through will be displayed: food, medications,
-      plants, household products, and a view all option. The user will have the ability to either browse through the list or use a search bar to search for a specific item
-      they want information about. In the instance of plants, users will be able to upload a photo to have the plant identified. When a specific item is either selected or
-      identified, the user will be displayed the following information: a picture of the item; a description of the item; why it is toxic to cats; symptoms the cat will
-      display if the toxin has been ingested; and treatment Information.</p>
-    <p class="techReportInfo">When the user selects the option to find a nearby veterinary clinic, their location will be determined automatically if location services have been
-      enabled; otherwise, they will be shown an input field to be able to enter their postcode. Once this is submitted, the user will be displayed with a list of the veterinary
-      clinics within that suburb ordered from closest to farthest away. The details of each veterinary clinic will include the name of the clinic, clinic address, phone number,
-      email address (if available), opening hours, and whether they accept emergency or after-hours patients. The name of the veterinary clinic will be a link that when clicked on
-      will redirect the user to the website for the clinic. There will be an option for the user to filter by a preferred veterinary clinic if they wish e.g., only display Greencross
-      Vet clinics, or to filter by available hours e.g., only show open clinics or clinics available after-hours.</p>
-    <p class="techReportInfo">When the user selects the option for poison hotline numbers, they will be displayed with a list of available hotline services they can contact for
-      further information and advice. The information displayed will include the name of the service, phone number, email address, and operational hours e.g., whether they are
-      a twenty-four hours service or have specific operating hours. The name of the service will be a link, similarly to the name of the veterinary clinic, that when clicked
-      will redirect the user to the website for the poison hotline.</p>
-    <p class="techReportInfo">An addition to this app which is being considered is the ability for the user to search and report toxins identified within their local area via
-      either a map or postcode search. This would be a particularly useful tool for owners of outdoor cats that may roam out of sight of the owner and ingest an unknown substance.
-      This addition would give the owner capacity to look for toxins within their area and identify what may have been consumed by their cat. If a user identifies a toxin within
-      an area, there will be an option to submit the postcode, suburb or specific location coordinates and details of the toxin.</p>
-    <h3 class="techNameSubHeadings">Tools & Technologies</h3>
-    <p class="techReportInfo">The backbone of the service will be provided via the Node.js server platform. This will allow the small development team to be maintained with
-      developers being able to share frontend and backend work via the shared JavaScript environment (Clever Solution 2020).</p>
-    <p class="techReportInfo">Information delivered through the website will be stored in and retrieved from a MySQL database. MySQL is a relational database, providing a good
-      fit for the structured nature of the data stored in this project, and is a mature and well-supported platform, allowing quick deployment and a wide variety of documentation
-      to aid setup and maintenance (Harkushko 2020).</p>
-    <p class="techReportInfo">User interface implementation will be provided by HTML, CSS, JavaScript and accompanying HTML5 standards. Both location services and image uploading
-      will be provided via standard browser methods. All interface content will be served from the default Node.js HTML service.</p>
-    <p class="techReportInfo">To achieve plant identification and searching, the plant.id service machine learning API will be used. Access to the service is provided on a per-request
-      basis and trial access is available for the testing and prototyping development phases. Examples are available in the provided platform documentation which includes JavaScript
-      samples, the method to be utilised for this project.</p>
-    <p class="techReportInfo">Alongside the creation of the website interface and server back end, a mobile application will be developed in tandem. Primary service features will
-      be provided by an integrated web view, displaying the website, with further, platform specific features and enhancements enabled via additional menus and buttons.
-      The Android application will be developed with only the standard development systems and software required. Accompanying Android hardware will be required during the
-      application testing period.</p>
-    <h3 class="techNameSubHeadings">Skills required</h3>
-    <p class="techReportInfo">A range of skills and team members will be required to implement the services tools and technologies outlined earlier; however, in spending time
-      choosing the correct tools, some requirements are shared across several areas of the project.</p>
-    <p class="techReportInfo">Implementation of the server, database, and Plant.id API will require knowledge in JavaScript for development within the Node.js runtime; a core
-      understanding of SQL as well as MySQL database interfaces; and experience integrating an external API. Knowledge in these areas will be provided by Lachlan who has
-      experience in both JavaScript development and SQL database integration. Time will be initially allocated in researching API integration to ensure feasibility of this feature-set.</p>
-    <p class="techReportInfo">User Interface development will require a knowledge in HTML, CSS, and JavaScript as well as accompanying knowledge of design principles. Michelle, an aspiring
-      frontend developer and the project lead, will handle the site design and creation.</p>
-    <p class="techReportInfo">Creation of the app will require some research into Android app development but, due to primary functions being provided by an embedded browser view, time
-      will only be spent implementing and creating the accompanying, mobile-specific features. Knowledge of the Java programming languages will be required and a proof of concept
-      prototype will be created via online, freely available boilerplate samples (Free Code Camp, Inc. 2018). With access to Android device emulators for PC, access to and know how to
-      operate an Android device to be able to build and test the functionality and usability of the app will only be required on reaching the testing phase.</p>
-    <p class="techReportInfo">Research, data entry and database management skills will also be utilised. After initial installation of the database and its accompanying tools, data collection
-      and entry will be managed by accompanying team members. Both Michelle and Lachlan will oversee data management and collection, providing relevant information and support where required.</p>
-    <h3 class="techNameSubHeadings">Outcome</h3>
-    <p class="techReportInfo">As previously mentioned, education is one of the best ways pet poisoning incidents can be reduced and prevented. If this project was successful, pet owners would
-      have an educational resource readily available to them to help them keep their cats safe. While cat poisonings will undoubtedly still occur, the risk would be significantly reduced and the
-      possibility of death occurring would be considerably minimised due to the inclusion of veterinary and hotline contact details.</p>
+    <h2 class="containerSubHeadings">overview</h2>
+    <h3 class="techNameSubHeadings">Topic</h3>
+    <h3 class="techNameSubHeadings">Motivation</h3>
+    <h3 class="techNameSubHeadings">Landscape</h3>
+    <h2 class="containerSubHeadings">description</h2>
+    <h3 class="techNameSubHeadings">Aims</h3>
+    <h3 class="techNameSubHeadings">Plans and Progress</h3>
+    <h3 class="techNameSubHeadings">Roles</h3>
+    <h3 class="techNameSubHeadings">Scope and Limits</h3>
+    <h3 class="techNameSubHeadings">Tools and Technologies</h3>
+    <h3 class="techNameSubHeadings">Testing</h3>
+    <h3 class="techNameSubHeadings">Timeframe</h3>
+    <h3 class="techNameSubHeadings">Risks</h3>
+    <h3 class="techNameSubHeadings">Group processes and communications</h3>
   </div>
 </body>
 
