@@ -1,6 +1,7 @@
 import React from 'react';
 import './Search.css';
 import db from '../database.js';
+import SearchIcon from '@material-ui/icons/Search';
 
 class Search extends React.Component {
 
@@ -96,9 +97,9 @@ class Search extends React.Component {
 					{results.map((result, i) => {
 						return (
 							<div class="result-item">
-										<img className="image"
-											src={`${result.img}`}
-											alt="Ocimum basilicum" />
+								<img className="image"
+									src={`${result.img}`}
+									alt="Ocimum basilicum" />
 								<div class="result-info">
 									<h4 class="image-username">{`${result.title}`}</h4>
 									<div class="result-tag-div">
@@ -120,10 +121,11 @@ class Search extends React.Component {
 
 		return (
 			<div className="container">
-				{/*	Heading*/}
-				<h2 className="heading">Toxin Database</h2>
 				{/* Search Input*/}
-				<label className="search-label" htmlFor="search-input">
+				<div className="search-label" htmlFor="search-input">
+					<div className="search-icon">
+						<SearchIcon />
+					</div>
 					<input
 						type="text"
 						name="query"
@@ -132,8 +134,7 @@ class Search extends React.Component {
 						placeholder="Search..."
 						onChange={this.handleOnInputChange}
 					/>
-					<i className="fa fa-search search-icon" aria-hidden="true" />
-				</label>
+				</div>
 
 				{/*	Error Message*/}
 				{message && <p className="message">{message}</p>}
