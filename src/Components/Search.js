@@ -1,6 +1,5 @@
 import React from 'react';
 import './Search.css';
-import db from '../database.js';
 import SearchIcon from '@material-ui/icons/Search';
 
 class Search extends React.Component {
@@ -8,7 +7,9 @@ class Search extends React.Component {
 	constructor(props) {
 		super(props);
 
+		let db = window.db;
 		this.state = {
+			db: db,
 			query: '',
 			results: db,
 			loading: false,
@@ -49,8 +50,8 @@ class Search extends React.Component {
 			this.cancel.cancel();
 		}
 
-		const res = db.filter(e => e.title.toLowerCase().includes(query.toLowerCase()) || e.tags.filter(t => t.toLowerCase().includes(query.toLowerCase())).length);
-		
+		const res = this.state.db.filter(e => e.title.toLowerCase().includes(query.toLowerCase()) || e.tags.filter(t => t.toLowerCase().includes(query.toLowerCase())).length);
+
 		const total = res.length;
 		const totalPagesCount = this.getPageCount(total, 20);
 		const resultNotFoundMsg = !res.length ? 'There are no more search results. Please try a new search' : '';

@@ -7,24 +7,27 @@ import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 
-export default function App() {
+class App extends React.Component {
 
-	return (
-		<div>
-			<AppBar position="static">
-				<Toolbar variant="dense">
-					<IconButton edge="start">
-						<MenuIcon />
-					</IconButton>
-					<Typography variant="h6" color="inherit">
-						Toxins
+	render() {
+		return (
+			<div>
+				<AppBar position="static">
+					<Toolbar variant="dense">
+						<IconButton edge="start">
+							<MenuIcon />
+						</IconButton>
+						<Typography variant="h6" color="inherit">
+							Toxins
 					</Typography>
-				</Toolbar>
-			</AppBar>
-			<div id="app-container">
-				<Search />
+					</Toolbar>
+				</AppBar>
+				<div id="app-container">
+					<Search />
+				</div>
 			</div>
-		</div>
-	);
+		);
+	}
 }
+export default App;
 
