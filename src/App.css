@@ -1,0 +1,9 @@
+#app-container {
+	width: 90%;
+
+	margin: auto;
+}
+
+#app-bar {
+	background-color: rgb(252,145,53);
+}
