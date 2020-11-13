@@ -12,7 +12,7 @@ class App extends React.Component {
 	render() {
 		return (
 			<div>
-				<AppBar position="static">
+				<AppBar position="static" id="app-bar">
 					<Toolbar variant="dense">
 						<IconButton edge="start">
 							<MenuIcon />
