@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  background-color: #DBD3D8;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 50px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Major Mono Display', monospace;
+  padding: 0 20px;
+}
+
+a:hover {
+  background-color: #EFF1F3
+}
+
+.activeLink {
+  background-color: #EFF1F3
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30%;
+  background-color: #223843;
+  color: #EFF1F3;
+}
+
+.bodyStyling {
+  background-color: #EFF1F3;
+}
+
+#groupName {
+  font-size: 120px;
+  font-family: 'Major Mono Display', monospace;
+}
+
+.subHeading {
+  margin: 80px 0px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Major Mono Display', monospace;
+  background-color: #EFF1F3;
+}
+
+.name {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#namePadding {
+  padding-bottom: 40px;
+}
+
+.studentNum {
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.infoHeading {
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.info {
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#toolsDiv {
+  margin: 3% 15%;
+}
+
+.boxContainer {
+  display: flex;
+  flex-flow: wrap;
+  margin: 3% 15%;
+  min-height: 70%;
+}
+
+.toolsBoxContainer {
+  display: flex;
+  flex-flow: wrap;
+  min-height: 70%;
+}
+
+.boxItem {
+  flex-basis: 50%;
+}
+
+#toolsDescription {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#toolsMargin {
+    margin-top: 20px;
+}
+
+.indexBoxInfo {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.subPageHeaders {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30%;
+  font-size: 100px;
+  font-family: 'Major Mono Display', monospace;
+}
+
+#teamProfileBox {
+  margin: 3% 15%;
+}
+
+#colour1 {
+  background-color: #223843;
+  color: #EFF1F3;
+}
+
+#colour2 {
+  background-color: #D8B4A0;
+}
+
+#colour3 {
+  background-color: #D77A61;
+}
+
+#idealJobsBox {
+  margin: 3% 15%;
+}
+
+.toolsSubHeadings {
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Major Mono Display', monospace;
+}
+
+.websiteHeadings {
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.links {
+  display: inline-block;
+  padding: 0px;
+  font-size: 18px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.links:hover {
+  color: #D77A61;
+}
+
+.meetingLinks {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 18px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.meetingLinks:link {
+  text-decoration: underline;
+}
+
+.meetingLinks:hover {
+  color: #D77A61;
+}
+
+.containerSubHeadings {
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Major Mono Display', monospace;
+}
+
+.subContainer {
+  padding-top: 20px;
+}
+
+.techNameSubHeadings {
+  padding-bottom: 15px;
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 25px;
+}
+
+.techContainer {
+  display: block;
+  margin: 3% 15%;
+}
+
+.techReport {
+  padding-bottom: 50px;
+}
+
+.techReportInfo {
+  padding-bottom: 20px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 18px;
+}
+
+#interviewLink {
+  text-align: center;
+}
+
+.figureStyling {
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.imgStyling {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  height: 360px;
+  width: 520px;
+  border: 2px solid #000000;
+}
+
+#imageSize {
+  height:360px;
+  width: 550px;
+}
+
+#cyberSecuritySizing {
+  height: 250px;
+  width: 550px;
+}
+
+#listPadding {
+  padding-left: 5%;
+}
+
+#elementStyling {
+  display: list-item;
+  list-style-type: circle;
+}
+
+#referencesDisplay {
+  margin: 3% 15%;
+}
+
+@media (max-width: 1700px) {
+  li {
+    width: 100%;
+    flex: 100%;
+  }
+
+  ul {
+    flex-wrap: wrap;
+  }
+}
