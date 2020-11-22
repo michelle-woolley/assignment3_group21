@@ -215,7 +215,8 @@ a:visited {
 }
 
 .containerSubHeadings {
-  padding-bottom: 15px;
+  padding-bottom: 50px;
+  padding-top: 50px;
   text-align: center;
   font-size: 30px;
   font-family: 'Major Mono Display', monospace;
@@ -289,6 +290,15 @@ a:visited {
 
 #referencesDisplay {
   margin: 3% 15%;
+}
+
+.prototypeLink {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: center;
+}
+
+.prototypeLink:hover {
+  color: #D77A61;
 }
 
 @media (max-width: 1700px) {
