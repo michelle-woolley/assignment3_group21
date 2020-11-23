@@ -301,6 +301,10 @@ a:visited {
   color: #D77A61;
 }
 
+#gitInfo {
+  padding-top: 20px;
+}
+
 @media (max-width: 1700px) {
   li {
     width: 100%;
