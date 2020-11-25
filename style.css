@@ -261,8 +261,28 @@ a:visited {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
-  height: 360px;
-  width: 520px;
+  height: 400px;
+  width: 400px;
+  border: 2px solid #000000;
+}
+
+#QAImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  height: 250px;
+  width: 500px;
+  border: 2px solid #000000;
+}
+
+#UIImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  height: 400px;
+  width: 450px;
   border: 2px solid #000000;
 }
 
