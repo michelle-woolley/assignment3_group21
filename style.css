@@ -239,21 +239,10 @@ a:visited {
   margin: 3% 15%;
 }
 
-.techReport {
-  padding-bottom: 50px;
-}
-
 .techReportInfo {
   padding-bottom: 20px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 18px;
-}
-
-.figureStyling {
-  text-align: center;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: 16px;
-  margin-bottom: 30px;
 }
 
 .imgStyling {
@@ -381,8 +370,8 @@ td {
   }
 }
 
-@media screen and (min-width: 2000px) {
-  body {
-    width: 70%;
+@media screen and (min-width: 1980px) {
+  .maxWidthContainer {
+    width: 50%;
   }
 }
