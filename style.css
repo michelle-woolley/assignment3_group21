@@ -380,3 +380,9 @@ td {
     flex-wrap: wrap;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  body {
+    width: 70%;
+  }
+}
